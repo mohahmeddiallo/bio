@@ -1,0 +1,1 @@
+Trinity --seqType fa --max_memory 128G --left Cylicolaimus_sp_T88_R1.fastq --right Cylicolaimus_sp_T88_R2.fastq --CPU 18
