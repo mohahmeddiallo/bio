@@ -93,6 +93,8 @@ for FILENAME in *.fa; do
 iqtree -s $FILENAME -st AA -m MFP -msub nuclear -bb 1000 -nt 4
 done
 
+# for ASTRAL run, this command collapses all branches with support 
+# values less than 75 
 
 for tree in *.treefile
 do
